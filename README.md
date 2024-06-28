@@ -15,6 +15,8 @@ In this project I will create an active directory to manage resources: users, co
 -<b> Windows 10 </b>
 -<b> Kali Linux </b>
 -<b> Windows Server </b>
+-<b> Splunk </b>
+
 
 
 <h2>Program Walk-through</h2>
