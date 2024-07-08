@@ -25,4 +25,5 @@ What is an Active Directory? It is a database that contains users, computers, an
 <h2>Program Walk-through</h2>
 
 <h3> Network Diagram</h3>
-![Active Directory Model](https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/blob/main/images/network%20model.jpg)
+![Active Directory Model](<img width="508" alt="Screenshot 2024-07-08 at 4 53 12 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/d404c082-bdb4-452a-83dc-fc6c0717618d">
+)
