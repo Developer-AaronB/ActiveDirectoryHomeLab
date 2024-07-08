@@ -12,8 +12,6 @@ What is an Active Directory? It is a database that contains users, computers, an
 
 
 
-<h2>Languages and Utilities Used</h2>
--<b>some text</b>
 
 <h2>Environments Used</h2>
 
@@ -27,4 +25,4 @@ What is an Active Directory? It is a database that contains users, computers, an
 <h2>Program Walk-through</h2>
 
 <h3> Network Diagram</h3>
-https://imgur.com/70aAy3n
+![Active Directory Model of Lab draw.io](https://imgur.com/70aAy3n)
