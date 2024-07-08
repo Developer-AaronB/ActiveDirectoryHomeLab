@@ -25,3 +25,6 @@ What is an Active Directory? It is a database that contains users, computers, an
 
 
 <h2>Program Walk-through</h2>
+
+<h3> Network Diagram</h3>
+https://imgur.com/70aAy3n
