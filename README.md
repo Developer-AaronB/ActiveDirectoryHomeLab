@@ -35,4 +35,4 @@ In order to set this up on the splunk server vm, I had to use the command: sudo 
 </br>
 <img width="450" height="450" alt="Screenshot 2024-07-09 at 12 26 55 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/8b2cee7e-a062-4200-a958-0b7839b9c881">
 </br>
-I had to use command <bold>sudo netplan apply</bold> to finalize all changes. 
+I had to use command sudo netplan apply to finalize all changes. 
