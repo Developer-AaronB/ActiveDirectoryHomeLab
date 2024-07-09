@@ -27,3 +27,9 @@ What is an Active Directory? It is a database that contains users, computers, an
 <h3> Network Diagram</h3>
 <img width="300" height="450" alt="Screenshot 2024-07-08 at 4 53 12 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/d404c082-bdb4-452a-83dc-fc6c0717618d">
 
+We use this diagram to set up our lab testing enviornment network variables. 
+</br>
+
+<h3>Setting up Static IP on the splunk server</h3>
+In order to set this up on the splunk server vm, I had to use the command: sudo nano /etc/netplan/00-installer-config.yaml. This file was the only one in the etc folder. Which brought me up to this screen.
+<img width="300" height="450" alt="Screenshot 2024-07-09 at 12 26 55 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/8b2cee7e-a062-4200-a958-0b7839b9c881">
