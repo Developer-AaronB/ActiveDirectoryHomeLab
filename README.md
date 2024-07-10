@@ -61,6 +61,36 @@ The indexes on splunk did not have endpoint which needed to be created since we 
 </br>
 
 <h2>Configuring the windows server VM</h2>
+<img width="910" alt="Screenshot 2024-07-10 at 5 24 59 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/fc7a6126-36a6-442f-9902-c474baa89535">
+</br>
+I had to configure the server to have the correct static IP to prevent any errors into our active directory. Once it was configured I used ipconfig command to check the static ip as well as ping google.com for connectivity.
+</br>
+<img width="1133" alt="Screenshot 2024-07-10 at 5 29 41 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/5c7eda48-1002-4e85-a76c-f96a1f7686cd">
+</br>
+I had to promote this server to a domain controller by adding it to a new forest calling it mydfir.local with a password. I learned that attackers love to target domain controllers since it has access to everything which contains password hashes. Any activity report in this file would mean the server has been compromised.
+</br>
+<img width="724" alt="Screenshot 2024-07-10 at 5 34 40 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/71a598e0-5aa3-4e28-8289-34de4ec82179">
+</br>
+<img width="845" alt="Screenshot 2024-07-10 at 5 36 34 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/15968129-20ba-4cb5-87c2-ca1722025eaa">
+</br>
+I had to set up some test departments and fill in some users into the correct groups. In a higher enterprise this would be broken up by departments.
+</br>
+
+<h2>Target PC To Join The Domain and authenticate with new account</h2>
+
+<img width="778" alt="Screenshot 2024-07-10 at 5 43 45 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/f7adeb75-7634-45cd-a901-057a5be41c1c">
+</br>
+The error from target machine does not know how to resolve the mydfir.local domain. I had to change the network adapter properties to change IPv4.
+</br>
+<img width="423" alt="Screenshot 2024-07-10 at 5 48 14 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/b9d8055a-fb37-4dd8-81c5-5cc87b643650">
+</br>
+<img width="1100" alt="Screenshot 2024-07-10 at 5 49 44 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/ce7ac2c9-fdad-4ec1-91b2-29263e959d6e">
+</br>
+I had to restart the target pc and now select other user while making sure it pointed to the domain mydfir. I logged in with the test account and now we have two machines talking with each other. It will pass events to our splunk server now. 
+
+
+
+
 
 
 
