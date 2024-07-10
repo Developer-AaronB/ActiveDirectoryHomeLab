@@ -35,7 +35,7 @@ In order to set this up on the splunk server vm, I had to use the command: sudo 
 </br>
 <img width="450" height="450" alt="Screenshot 2024-07-09 at 12 26 55 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/8b2cee7e-a062-4200-a958-0b7839b9c881">
 </br>
-I had to use command ``` sudo netplan apply ``` to finalize all changes. 
+I had to use command  sudo netplan apply to finalize all changes. 
 </br>
 <img width="1101" alt="Screenshot 2024-07-10 at 4 02 24 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/25bb4988-1564-4ea5-a836-1a0c3c8568f8">
 </br>
@@ -53,6 +53,13 @@ One of the main problems I ran into was the account creation for splunk enterpri
 <img width="829" alt="Screenshot 2024-07-10 at 4 35 27 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/3647c99c-f96f-47c5-9d8d-8334ccf46fde">
 </br>
 These configurations are instructing the splunk forwarder to push events releated to applications, security, and sysmon over to the splunk server. All the indexes are pointing to the endpoints which any event from  the endpoint will be pushed into our splunk server. Thanks to youtuber steve for providing this part in the homelab.
+</br>
+<img width="1034" alt="Screenshot 2024-07-10 at 5 06 38 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/64481b99-b438-4e65-b5a8-f4bd1e50536f">
+</br>
+The indexes on splunk did not have endpoint which needed to be created since we updated the local directory files with the config file for endpoints. The port that the new index needed to listen on was 9997. After clicking save, I was already able to see events from my target-pc. I made a search for index=endpoint (last 24hours)
+<img width="1026" alt="Screenshot 2024-07-10 at 5 10 14 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/4b2e5a0f-88f2-4e1e-a6ae-4138bb5fe7f6">
+</br>
+
 
 
 
