@@ -38,4 +38,13 @@ In order to set this up on the splunk server vm, I had to use the command: sudo 
 I had to use command sudo netplan apply to finalize all changes. 
 </br>
 <img width="1101" alt="Screenshot 2024-07-10 at 4 02 24 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/25bb4988-1564-4ea5-a836-1a0c3c8568f8">
+</br>
+This will run with the user splunk is online everytime. Then I wanted to make sure my vm-host-pc is now renamed to target-pc which will distinguish itself in the labs.
+</br>
+<h3>TargetPC Config</h3>
+<img width="753" alt="Screenshot 2024-07-10 at 4 10 24 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/e5a14504-1b2d-4f8a-8699-778723f4f4f4">
+</br>
+The target pc had the same IP address as the windows server in the diagram I had set up. I had to go into the network adapter settings to configure it as a static IP. This will prevent any IP conflict from happening. 
+
+
 
