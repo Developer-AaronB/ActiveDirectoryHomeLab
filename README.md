@@ -60,6 +60,8 @@ The indexes on splunk did not have endpoint which needed to be created since we 
 <img width="1026" alt="Screenshot 2024-07-10 at 5 10 14 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/4b2e5a0f-88f2-4e1e-a6ae-4138bb5fe7f6">
 </br>
 
+<h2>Configuring the windows server VM</h2>
+
 
 
 
