@@ -41,10 +41,20 @@ I had to use command sudo netplan apply to finalize all changes.
 </br>
 This will run with the user splunk is online everytime. Then I wanted to make sure my vm-host-pc is now renamed to target-pc which will distinguish itself in the labs.
 </br>
-<h3>TargetPC Config</h3>
+<h3>TargetPC Config Splunk Indexer and Sysmon</h3>
 <img width="753" alt="Screenshot 2024-07-10 at 4 10 24 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/e5a14504-1b2d-4f8a-8699-778723f4f4f4">
 </br>
-The target pc had the same IP address as the windows server in the diagram I had set up. I had to go into the network adapter settings to configure it as a static IP. This will prevent any IP conflict from happening. 
+The target pc had the same IP address as the windows server in the diagram I had set up. I had to go into the network adapter settings to configure it as a static IP. This will prevent any IP conflicts from happening. 
+</br>
+<img width="557" alt="Screenshot 2024-07-10 at 4 18 12 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/ed88a102-ffe2-470e-bea0-ce4a15603058">
+</br>
+One of the main problems I ran into was the account creation for splunk enterprise. It took two weeks fo non stop calling to customer service to resolve the "48 hour wait time" specified for trial email. After the problem was resolved I was able to download splunk and indexer, which I made sure to put the correct IP address of the target-Pc.
+</br>
+<img width="829" alt="Screenshot 2024-07-10 at 4 35 27 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/3647c99c-f96f-47c5-9d8d-8334ccf46fde">
+</br>
+These configurations are instructing the splunk forwarder to push events releated to applications, security, and sysmon over to the splunk server. All the indexes are pointing to the endpoints which any event from  the endpoint will be pushed into our splunk server. Thanks to youtuber steve for providing this part in the homelab.
+
+
 
 
 
