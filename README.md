@@ -31,7 +31,7 @@ We use this diagram to set up our lab testing enviornment network variables.
 </br>
 
 <h3>Setting up Static IP on the splunk server</h3>
-In order to set this up on the splunk server vm, I had to use the command: sudo nano /etc/netplan/00-installer-config.yaml. This file was the only one in the etc folder. Which brought me up to this screen which allowed me to set my static IP to the one in the diagram. 
+In order to set this up on the splunk server vm, I had to use the command: sudo nano /etc/netplan/00-installer-config.yaml. This file was the only one in the etc folder. Which brought me up to this screen which allowed me to set my static IP to the one in the diagram. I am currently in the Network layer 3 of the OSI model by configuring all of the static IP addresses.
 </br>
 <img width="450" height="450" alt="Screenshot 2024-07-09 at 12 26 55 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/8b2cee7e-a062-4200-a958-0b7839b9c881">
 </br>
