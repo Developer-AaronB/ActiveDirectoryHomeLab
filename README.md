@@ -36,3 +36,6 @@ In order to set this up on the splunk server vm, I had to use the command: sudo 
 <img width="450" height="450" alt="Screenshot 2024-07-09 at 12 26 55 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/8b2cee7e-a062-4200-a958-0b7839b9c881">
 </br>
 I had to use command sudo netplan apply to finalize all changes. 
+</br>
+<img width="1101" alt="Screenshot 2024-07-10 at 4 02 24 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/25bb4988-1564-4ea5-a836-1a0c3c8568f8">
+
