@@ -21,10 +21,10 @@ What is an Active Directory? It is a database that contains users, computers, an
 -<b> Splunk </b>
 
 <h2>Tools</h2>
--Crowbary
+-Crowbar
 -Powershell
 -Splunk
--Attomic Red Team
+-Atomic Red Team
 
 <h2>Skills</h2>
 -Configuring active directory
