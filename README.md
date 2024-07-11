@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-In this project I will create an active directory to manage resources: users, computers, and groups. I will use splunk instance that will injest events from windows server that has the active directory and target windows machine. This project will practice red team skills of brute force attacks to see what telementry it generates. I want to give a big thanks to Steve at MyDFIR for the project idea and how the system works. I will get kali linux skills as well as splunk and how to use it effectively. This write up is not a step by step guide.
+In this project I will create an active directory to manage resources: users, computers, and groups. I will use splunk instance that will injest events from windows server that has the active directory and target windows machine. This project will practice red team skills of brute force attacks to see what telementry it generates. I want to give a big thanks to Steve at MyDFIR for the project idea and how the system works. I will get kali linux skills as well as splunk and how to use it effectively. This project is for my portfolio and reference which is not meant to be a step by step guide or how to. 
 <br />
 <br />
 
@@ -31,14 +31,14 @@ What is an Active Directory? It is a database that contains users, computers, an
 </br>
 -Configuring Splunk as SIEM to gather data from endpoints
 </br>
-Bruteforce attacks with Kali linux
+-Bruteforce attacks with Kali linux
 </br>
 -Analyzing Splunk events from generated attacks
 </br>
 -Analyzing MITRE ATT&CK framework
 </br>
 
-<h2>Program Walk-through</h2>
+<h2>Program Walkthrough</h2>
 
 <h3> Network Diagram</h3>
 <img width="300" height="450" alt="Screenshot 2024-07-08 at 4 53 12 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/d404c082-bdb4-452a-83dc-fc6c0717618d">
