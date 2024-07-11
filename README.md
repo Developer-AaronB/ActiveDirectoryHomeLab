@@ -22,6 +22,9 @@ What is an Active Directory? It is a database that contains users, computers, an
 
 <h2>Tools</h2>
 -Crowbary
+-Powershell
+-Splunk
+
 <h2>Skills</h2>
 
 
@@ -137,6 +140,43 @@ The code 4624 which registered as an event the account sucessfully logged in. Wh
 <img width="420" alt="Screenshot 2024-07-11 at 1 11 56 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/e5508d76-a058-4c39-83bc-87fd178ab5b7">
 </br>
 </details>
+
+
+<details>
+<summary><h2>Attomic Red Team and MITRE Framework</h2></summary>
+</br>
+<img width="558" alt="Screenshot 2024-07-11 at 1 34 20 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/7a5bb4df-74a2-450c-8bf5-00636c81b8ea">
+</br>
+When you run this command, it allows the current user to run scripts and load configuration files without being blocked or warned. This can be useful for running scripts from untrusted sources or for development purposes, but it also increases the risk of running malicious code, so it should be used with caution.
+</br>
+I had to set up an Exclusion on the C drive due to windows blocking the attomic red team files.
+</br>
+<img width="416" alt="Screenshot 2024-07-11 at 1 36 57 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/ffe93d7e-cf62-4b16-9fd2-100b969a40e1">
+</br>
+
+<img width="1032" alt="Screenshot 2024-07-11 at 1 40 32 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/b9a35c43-012b-407e-8273-9aeefa8821ed">
+</br>
+The persistence attack used is T1136.001, which was to create a new local account user. 
+</br>
+<img width="538" alt="Screenshot 2024-07-11 at 1 39 35 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/7a0fe17c-0641-4048-8260-5f83e5c1468a">
+</br>
+Account user created which will send telementary to the splunk SIEM. 
+</br>
+<img width="815" alt="Screenshot 2024-07-11 at 1 48 15 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/b74d33ac-3252-488f-8547-9fee441d0ab6">
+</br>
+
+<Summary><h2>Command and Scripting Interpreter Attomic Red Team</h2></Summary>
+</br>
+<img width="1032" alt="Screenshot 2024-07-11 at 1 40 32 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/67c2bdb9-ddb0-42c2-9f6a-d8e61bd99ed6">
+</br>
+<img width="1095" alt="Screenshot 2024-07-11 at 1 44 20 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/bfd8536e-45c6-4548-8e1f-6466b3c9be45">
+</br>
+The windows security defender is already picking up some threats from the attack technique T1059.001.
+</br>
+
+</details>
+
+
 
 
 
