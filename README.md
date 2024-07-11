@@ -24,9 +24,19 @@ What is an Active Directory? It is a database that contains users, computers, an
 -Crowbary
 -Powershell
 -Splunk
+-Attomic Red Team
 
 <h2>Skills</h2>
-
+-Configuring active directory
+</br>
+-Configuring Splunk as SIEM to gather data from endpoints
+</br>
+Bruteforce attacks with Kali linux
+</br>
+-Analyzing Splunk events from generated attacks
+</br>
+-Analyzing MITRE ATT&CK framework
+</br>
 
 <h2>Program Walk-through</h2>
 
