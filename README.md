@@ -43,7 +43,7 @@ What is an Active Directory? It is a database that contains users, computers, an
 <h3> Network Diagram</h3>
 <img width="300" height="450" alt="Screenshot 2024-07-08 at 4 53 12 PM" src="https://github.com/Developer-AaronB/ActiveDirectoryHomeLab/assets/91814805/d404c082-bdb4-452a-83dc-fc6c0717618d">
 
-We use this diagram to set up our lab testing enviornment network variables. 
+I used this diagram to set up my lab testing enviornment network variables. 
 </br>
 
 <details>
